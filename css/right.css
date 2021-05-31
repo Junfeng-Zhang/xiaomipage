@@ -1,0 +1,79 @@
+
+.right-nav {
+    position: fixed;
+    top: 200px;
+    right: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 80px;
+    text-align: center;
+}
+.right-nav .items {
+    border: 1px solid rgb(245,245,245);
+    padding: 10px 0;
+    background-color: #fff;
+}
+.right-nav .items span:first-child {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    
+}
+.right-nav .items span img {
+    width: 100%;
+}
+.right-nav .items span:last-child {
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+    color:rgb(117,117,117);
+}
+.right-nav .second {
+    display: none;
+}
+.right-nav .items:hover .first {
+    display: none;
+}
+.right-nav .items:hover .second {
+    display: block;
+}
+.right-nav .items .more {
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    width: 90px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(245,245,245);
+    display: none;
+}
+.right-nav .items:hover .more {
+    display: block;
+} 
+.right-nav .more img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.right-nav .more span {
+    display: block;
+}
+.right-nav .triangle {
+    position: absolute;
+    top: 0;
+    right: -16px;
+    width: 0;
+    height: 0;
+    border: 8px solid #eee;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    display: none;
+}
+.right-nav .items:hover .content {
+    color: #f40;
+}
+
+.right-nav .items:nth-child(6) {
+    margin-top: 20px;
+}
